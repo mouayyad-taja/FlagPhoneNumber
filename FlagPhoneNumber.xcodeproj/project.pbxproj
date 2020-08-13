@@ -3,260 +3,274 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"FlagPhoneNumber::FlagPhoneNumberPackageTests::ProductTarget" /* FlagPhoneNumberPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_38 /* Build configuration list for PBXAggregateTarget "FlagPhoneNumberPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_41 /* PBXTargetDependency */,
+			);
+			name = FlagPhoneNumberPackageTests;
+			productName = FlagPhoneNumberPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0D1930022293078C002583B1 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FD52293078B002583B1 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930032293078C002583B1 /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FD62293078B002583B1 /* NBAsYouTypeFormatter.m */; };
-		0D1930042293078C002583B1 /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FD72293078B002583B1 /* NBPhoneMetaData.m */; };
-		0D1930052293078C002583B1 /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FD82293078B002583B1 /* NBPhoneNumberUtil.m */; };
-		0D1930062293078C002583B1 /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FD92293078B002583B1 /* NSArray+NBAdditions.m */; };
-		0D1930072293078C002583B1 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FDA2293078B002583B1 /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930082293078C002583B1 /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FDB2293078B002583B1 /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930092293078C002583B1 /* NBRegExMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FDD2293078B002583B1 /* NBRegExMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D19300A2293078C002583B1 /* NBRegularExpressionCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FDE2293078B002583B1 /* NBRegularExpressionCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D19300B2293078C002583B1 /* NBRegExMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FDF2293078B002583B1 /* NBRegExMatcher.m */; };
-		0D19300C2293078C002583B1 /* NBRegularExpressionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FE02293078B002583B1 /* NBRegularExpressionCache.m */; };
-		0D19300E2293078C002583B1 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FE22293078B002583B1 /* NBNumberFormat.m */; };
-		0D19300F2293078C002583B1 /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FE32293078B002583B1 /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930102293078C002583B1 /* NBPhoneNumberUtil+ShortNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FE42293078B002583B1 /* NBPhoneNumberUtil+ShortNumber.m */; };
-		0D1930112293078C002583B1 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FE52293078B002583B1 /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930122293078C002583B1 /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FE62293078B002583B1 /* NBPhoneNumber.m */; };
-		0D1930132293078C002583B1 /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FE72293078B002583B1 /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930142293078C002583B1 /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FE82293078B002583B1 /* NBMetadataHelper.m */; };
-		0D1930152293078C002583B1 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FE92293078B002583B1 /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930162293078C002583B1 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FEA2293078B002583B1 /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930172293078C002583B1 /* NBPhoneNumberMetadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D192FEB2293078B002583B1 /* NBPhoneNumberMetadata.plist */; };
-		0D1930182293078C002583B1 /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FEC2293078B002583B1 /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1930192293078C002583B1 /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FED2293078B002583B1 /* NBPhoneNumberUtil+ShortNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D19301A2293078C002583B1 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FEE2293078B002583B1 /* NBPhoneNumberDesc.m */; };
-		0D19301B2293078C002583B1 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D192FEF2293078B002583B1 /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D19301C2293078C002583B1 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FF02293078B002583B1 /* NBPhoneNumberDefines.m */; };
-		0D19301E2293078C002583B1 /* FPNCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D192FF32293078B002583B1 /* FPNCountryView.xib */; };
-		0D19301F2293078C002583B1 /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D192FF42293078B002583B1 /* countryCodes.json */; };
-		0D1930202293078C002583B1 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D192FF52293078B002583B1 /* FlagKit.xcassets */; };
-		0D1930222293078C002583B1 /* FPNNibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FF82293078B002583B1 /* FPNNibLoadingView.swift */; };
-		0D1930232293078C002583B1 /* FPNCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FF92293078B002583B1 /* FPNCountryPicker.swift */; };
-		0D1930242293078C002583B1 /* FPNCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FFA2293078B002583B1 /* FPNCountryView.swift */; };
-		0D1930282293078C002583B1 /* FPNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D192FFF2293078C002583B1 /* FPNTextField.swift */; };
-		0D79D5CD2397CAAA00DD3E14 /* FPNCountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5C52397CAA900DD3E14 /* FPNCountryRepository.swift */; };
-		0D79D5D02397CAAA00DD3E14 /* FlagPhoneNumber-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D79D5C82397CAAA00DD3E14 /* FlagPhoneNumber-Bridging-Header.h */; };
-		0D79D5D22397CAAA00DD3E14 /* FPNCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5CA2397CAAA00DD3E14 /* FPNCountry.swift */; };
-		0D79D5D32397CAAA00DD3E14 /* FPNCountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5CB2397CAAA00DD3E14 /* FPNCountryListViewController.swift */; };
-		0D79D5DE2397CB3600DD3E14 /* FPNFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5D82397CB3600DD3E14 /* FPNFormat.swift */; };
-		0D79D5DF2397CB3600DD3E14 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5D92397CB3600DD3E14 /* Bundle+Extension.swift */; };
-		0D79D5E02397CB3600DD3E14 /* FPNCountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5DA2397CB3600DD3E14 /* FPNCountryCode.swift */; };
-		0D79D5E12397CB3600DD3E14 /* FPNTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5DB2397CB3600DD3E14 /* FPNTextFieldDelegate.swift */; };
-		0D79D5E22397CB3600DD3E14 /* FPNOBJCCountryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5DC2397CB3600DD3E14 /* FPNOBJCCountryKey.swift */; };
-		0D79D5E32397CB3600DD3E14 /* FPNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79D5DD2397CB3600DD3E14 /* FPNUtils.swift */; };
-		0DA9CA0B2293E39500723B96 /* FlagPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8C7134229296D40026E0C7 /* FlagPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_36 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_47 /* FlagPhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* FlagPhoneNumberTests.swift */; };
+		OBJ_48 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_50 /* FlagPhoneNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FlagPhoneNumber::FlagPhoneNumber::Product" /* FlagPhoneNumber.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3454B9D124E52F3B00B67FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "FlagPhoneNumber::FlagPhoneNumber";
+			remoteInfo = FlagPhoneNumber;
+		};
+		3454B9D224E52F3C00B67FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "FlagPhoneNumber::FlagPhoneNumberTests";
+			remoteInfo = FlagPhoneNumberTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0D192FD52293078B002583B1 /* NBPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumber.h; sourceTree = "<group>"; };
-		0D192FD62293078B002583B1 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
-		0D192FD72293078B002583B1 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneMetaData.m; sourceTree = "<group>"; };
-		0D192FD82293078B002583B1 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberUtil.m; sourceTree = "<group>"; };
-		0D192FD92293078B002583B1 /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NBAdditions.m"; sourceTree = "<group>"; };
-		0D192FDA2293078B002583B1 /* NBMetadataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBMetadataHelper.h; sourceTree = "<group>"; };
-		0D192FDB2293078B002583B1 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDefines.h; sourceTree = "<group>"; };
-		0D192FDD2293078B002583B1 /* NBRegExMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRegExMatcher.h; sourceTree = "<group>"; };
-		0D192FDE2293078B002583B1 /* NBRegularExpressionCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRegularExpressionCache.h; sourceTree = "<group>"; };
-		0D192FDF2293078B002583B1 /* NBRegExMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRegExMatcher.m; sourceTree = "<group>"; };
-		0D192FE02293078B002583B1 /* NBRegularExpressionCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRegularExpressionCache.m; sourceTree = "<group>"; };
-		0D192FE22293078B002583B1 /* NBNumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNumberFormat.m; sourceTree = "<group>"; };
-		0D192FE32293078B002583B1 /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDesc.h; sourceTree = "<group>"; };
-		0D192FE42293078B002583B1 /* NBPhoneNumberUtil+ShortNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBPhoneNumberUtil+ShortNumber.m"; sourceTree = "<group>"; };
-		0D192FE52293078B002583B1 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
-		0D192FE62293078B002583B1 /* NBPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumber.m; sourceTree = "<group>"; };
-		0D192FE72293078B002583B1 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneMetaData.h; sourceTree = "<group>"; };
-		0D192FE82293078B002583B1 /* NBMetadataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBMetadataHelper.m; sourceTree = "<group>"; };
-		0D192FE92293078B002583B1 /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NBAdditions.h"; sourceTree = "<group>"; };
-		0D192FEA2293078B002583B1 /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberUtil.h; sourceTree = "<group>"; };
-		0D192FEB2293078B002583B1 /* NBPhoneNumberMetadata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NBPhoneNumberMetadata.plist; sourceTree = "<group>"; };
-		0D192FEC2293078B002583B1 /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
-		0D192FED2293078B002583B1 /* NBPhoneNumberUtil+ShortNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBPhoneNumberUtil+ShortNumber.h"; sourceTree = "<group>"; };
-		0D192FEE2293078B002583B1 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDesc.m; sourceTree = "<group>"; };
-		0D192FEF2293078B002583B1 /* NBNumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNumberFormat.h; sourceTree = "<group>"; };
-		0D192FF02293078B002583B1 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDefines.m; sourceTree = "<group>"; };
-		0D192FF32293078B002583B1 /* FPNCountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPNCountryView.xib; sourceTree = "<group>"; };
-		0D192FF42293078B002583B1 /* countryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
-		0D192FF52293078B002583B1 /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = "<group>"; };
-		0D192FF82293078B002583B1 /* FPNNibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNNibLoadingView.swift; sourceTree = "<group>"; };
-		0D192FF92293078B002583B1 /* FPNCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNCountryPicker.swift; sourceTree = "<group>"; };
-		0D192FFA2293078B002583B1 /* FPNCountryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNCountryView.swift; sourceTree = "<group>"; };
-		0D192FFF2293078C002583B1 /* FPNTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNTextField.swift; sourceTree = "<group>"; };
-		0D79D5C52397CAA900DD3E14 /* FPNCountryRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNCountryRepository.swift; sourceTree = "<group>"; };
-		0D79D5C82397CAAA00DD3E14 /* FlagPhoneNumber-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlagPhoneNumber-Bridging-Header.h"; sourceTree = "<group>"; };
-		0D79D5CA2397CAAA00DD3E14 /* FPNCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNCountry.swift; sourceTree = "<group>"; };
-		0D79D5CB2397CAAA00DD3E14 /* FPNCountryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNCountryListViewController.swift; sourceTree = "<group>"; };
-		0D79D5D82397CB3600DD3E14 /* FPNFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNFormat.swift; sourceTree = "<group>"; };
-		0D79D5D92397CB3600DD3E14 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
-		0D79D5DA2397CB3600DD3E14 /* FPNCountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNCountryCode.swift; sourceTree = "<group>"; };
-		0D79D5DB2397CB3600DD3E14 /* FPNTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNTextFieldDelegate.swift; sourceTree = "<group>"; };
-		0D79D5DC2397CB3600DD3E14 /* FPNOBJCCountryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNOBJCCountryKey.swift; sourceTree = "<group>"; };
-		0D79D5DD2397CB3600DD3E14 /* FPNUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPNUtils.swift; sourceTree = "<group>"; };
-		0D8C7134229296D40026E0C7 /* FlagPhoneNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagPhoneNumber.h; sourceTree = "<group>"; };
-		0D8C7135229296D40026E0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DF48B3922917047006AB39C /* FlagPhoneNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagPhoneNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454BA2124E5306700B67FA0 /* FPNCountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNCountryListViewController.swift; sourceTree = "<group>"; };
+		3454BA2224E5306700B67FA0 /* FPNTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNTextField.swift; sourceTree = "<group>"; };
+		3454BA2324E5306700B67FA0 /* FlagPhoneNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagPhoneNumber.h; sourceTree = "<group>"; };
+		3454BA2424E5306700B67FA0 /* FPNCountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNCountryRepository.swift; sourceTree = "<group>"; };
+		3454BA2624E5306700B67FA0 /* FPNCountryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FPNCountryView.xib; sourceTree = "<group>"; };
+		3454BA2724E5306700B67FA0 /* countryCodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
+		3454BA2824E5306700B67FA0 /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = "<group>"; };
+		3454BA2A24E5306700B67FA0 /* NBPhoneNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumber.h; sourceTree = "<group>"; };
+		3454BA2B24E5306700B67FA0 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		3454BA2C24E5306700B67FA0 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPhoneMetaData.m; sourceTree = "<group>"; };
+		3454BA2D24E5306700B67FA0 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberUtil.m; sourceTree = "<group>"; };
+		3454BA2E24E5306700B67FA0 /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NBAdditions.m"; sourceTree = "<group>"; };
+		3454BA2F24E5306700B67FA0 /* NBMetadataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMetadataHelper.h; sourceTree = "<group>"; };
+		3454BA3024E5306700B67FA0 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		3454BA3224E5306700B67FA0 /* NBRegExMatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBRegExMatcher.h; sourceTree = "<group>"; };
+		3454BA3324E5306700B67FA0 /* NBRegularExpressionCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBRegularExpressionCache.h; sourceTree = "<group>"; };
+		3454BA3424E5306700B67FA0 /* NBRegExMatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBRegExMatcher.m; sourceTree = "<group>"; };
+		3454BA3524E5306700B67FA0 /* NBRegularExpressionCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBRegularExpressionCache.m; sourceTree = "<group>"; };
+		3454BA3624E5306700B67FA0 /* GeneratePhoneNumberHeader.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = GeneratePhoneNumberHeader.sh; sourceTree = "<group>"; };
+		3454BA3724E5306700B67FA0 /* NBNumberFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNumberFormat.m; sourceTree = "<group>"; };
+		3454BA3824E5306700B67FA0 /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		3454BA3924E5306700B67FA0 /* NBPhoneNumberUtil+ShortNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NBPhoneNumberUtil+ShortNumber.m"; sourceTree = "<group>"; };
+		3454BA3A24E5306700B67FA0 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		3454BA3B24E5306700B67FA0 /* NBPhoneNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumber.m; sourceTree = "<group>"; };
+		3454BA3C24E5306700B67FA0 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPhoneMetaData.h; sourceTree = "<group>"; };
+		3454BA3D24E5306700B67FA0 /* NBMetadataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBMetadataHelper.m; sourceTree = "<group>"; };
+		3454BA3E24E5306700B67FA0 /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+NBAdditions.h"; sourceTree = "<group>"; };
+		3454BA3F24E5306700B67FA0 /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		3454BA4024E5306700B67FA0 /* NBPhoneNumberMetadata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NBPhoneNumberMetadata.plist; sourceTree = "<group>"; };
+		3454BA4124E5306700B67FA0 /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
+		3454BA4224E5306700B67FA0 /* NBPhoneNumberUtil+ShortNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NBPhoneNumberUtil+ShortNumber.h"; sourceTree = "<group>"; };
+		3454BA4324E5306700B67FA0 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		3454BA4424E5306700B67FA0 /* NBNumberFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNumberFormat.h; sourceTree = "<group>"; };
+		3454BA4524E5306700B67FA0 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		3454BA4724E5306700B67FA0 /* FPNNibLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNNibLoadingView.swift; sourceTree = "<group>"; };
+		3454BA4824E5306700B67FA0 /* FPNCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNCountryPicker.swift; sourceTree = "<group>"; };
+		3454BA4924E5306700B67FA0 /* FPNCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNCountryView.swift; sourceTree = "<group>"; };
+		3454BA4A24E5306700B67FA0 /* FlagPhoneNumber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlagPhoneNumber-Bridging-Header.h"; sourceTree = "<group>"; };
+		3454BA4C24E5306700B67FA0 /* FPNFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNFormat.swift; sourceTree = "<group>"; };
+		3454BA4D24E5306700B67FA0 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		3454BA4E24E5306700B67FA0 /* FPNCountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNCountryCode.swift; sourceTree = "<group>"; };
+		3454BA4F24E5306700B67FA0 /* FPNTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNTextFieldDelegate.swift; sourceTree = "<group>"; };
+		3454BA5024E5306700B67FA0 /* FPNOBJCCountryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNOBJCCountryKey.swift; sourceTree = "<group>"; };
+		3454BA5124E5306700B67FA0 /* FPNUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNUtils.swift; sourceTree = "<group>"; };
+		3454BA5224E5306700B67FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3454BA5324E5306700B67FA0 /* FPNCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPNCountry.swift; sourceTree = "<group>"; };
+		"FlagPhoneNumber::FlagPhoneNumber::Product" /* FlagPhoneNumber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlagPhoneNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"FlagPhoneNumber::FlagPhoneNumberTests::Product" /* FlagPhoneNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FlagPhoneNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_12 /* FlagPhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagPhoneNumberTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* ExampleCocoapods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExampleCocoapods; sourceTree = SOURCE_ROOT; };
+		OBJ_18 /* Screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshot; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* ExampleOBJC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExampleOBJC; sourceTree = SOURCE_ROOT; };
+		OBJ_20 /* ExampleCarthage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExampleCarthage; sourceTree = SOURCE_ROOT; };
+		OBJ_21 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_23 /* FlagPhoneNumber.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FlagPhoneNumber.podspec; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DF48B3622917047006AB39C /* Frameworks */ = {
+		OBJ_30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_50 /* FlagPhoneNumber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D0EA1D122913E90002D7D42 = {
+		3454BA2024E5306700B67FA0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0DF48B1422916F9F006AB39C /* Sources */,
-				0D0EA1DB22913E90002D7D42 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		0D0EA1DB22913E90002D7D42 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0DF48B3922917047006AB39C /* FlagPhoneNumber.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0D192FD42293078B002583B1 /* libPhoneNumber */ = {
-			isa = PBXGroup;
-			children = (
-				0D192FE52293078B002583B1 /* NBAsYouTypeFormatter.h */,
-				0D192FEC2293078B002583B1 /* NBGeneratedPhoneNumberMetaData.h */,
-				0D192FDA2293078B002583B1 /* NBMetadataHelper.h */,
-				0D192FEF2293078B002583B1 /* NBNumberFormat.h */,
-				0D192FE72293078B002583B1 /* NBPhoneMetaData.h */,
-				0D192FD52293078B002583B1 /* NBPhoneNumber.h */,
-				0D192FDB2293078B002583B1 /* NBPhoneNumberDefines.h */,
-				0D192FE32293078B002583B1 /* NBPhoneNumberDesc.h */,
-				0D192FEA2293078B002583B1 /* NBPhoneNumberUtil.h */,
-				0D192FED2293078B002583B1 /* NBPhoneNumberUtil+ShortNumber.h */,
-				0D192FE92293078B002583B1 /* NSArray+NBAdditions.h */,
-				0D192FD62293078B002583B1 /* NBAsYouTypeFormatter.m */,
-				0D192FE82293078B002583B1 /* NBMetadataHelper.m */,
-				0D192FE22293078B002583B1 /* NBNumberFormat.m */,
-				0D192FD72293078B002583B1 /* NBPhoneMetaData.m */,
-				0D192FE62293078B002583B1 /* NBPhoneNumber.m */,
-				0D192FF02293078B002583B1 /* NBPhoneNumberDefines.m */,
-				0D192FEE2293078B002583B1 /* NBPhoneNumberDesc.m */,
-				0D192FD82293078B002583B1 /* NBPhoneNumberUtil.m */,
-				0D192FE42293078B002583B1 /* NBPhoneNumberUtil+ShortNumber.m */,
-				0D192FD92293078B002583B1 /* NSArray+NBAdditions.m */,
-				0D192FEB2293078B002583B1 /* NBPhoneNumberMetadata.plist */,
-				0D192FDC2293078B002583B1 /* Internal */,
-			);
-			path = libPhoneNumber;
-			sourceTree = "<group>";
-		};
-		0D192FDC2293078B002583B1 /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				0D192FDD2293078B002583B1 /* NBRegExMatcher.h */,
-				0D192FDE2293078B002583B1 /* NBRegularExpressionCache.h */,
-				0D192FDF2293078B002583B1 /* NBRegExMatcher.m */,
-				0D192FE02293078B002583B1 /* NBRegularExpressionCache.m */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
-		0D192FF22293078B002583B1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0D192FF32293078B002583B1 /* FPNCountryView.xib */,
-				0D192FF42293078B002583B1 /* countryCodes.json */,
-				0D192FF52293078B002583B1 /* FlagKit.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		0D192FF62293078B002583B1 /* FPNCountryPicker */ = {
-			isa = PBXGroup;
-			children = (
-				0D192FF82293078B002583B1 /* FPNNibLoadingView.swift */,
-				0D192FF92293078B002583B1 /* FPNCountryPicker.swift */,
-				0D192FFA2293078B002583B1 /* FPNCountryView.swift */,
-			);
-			path = FPNCountryPicker;
-			sourceTree = "<group>";
-		};
-		0D79D5D72397CB3600DD3E14 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				0D79D5D82397CB3600DD3E14 /* FPNFormat.swift */,
-				0D79D5D92397CB3600DD3E14 /* Bundle+Extension.swift */,
-				0D79D5DA2397CB3600DD3E14 /* FPNCountryCode.swift */,
-				0D79D5DB2397CB3600DD3E14 /* FPNTextFieldDelegate.swift */,
-				0D79D5DC2397CB3600DD3E14 /* FPNOBJCCountryKey.swift */,
-				0D79D5DD2397CB3600DD3E14 /* FPNUtils.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		0DF48B1422916F9F006AB39C /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				0D79D5C82397CAAA00DD3E14 /* FlagPhoneNumber-Bridging-Header.h */,
-				0D8C7134229296D40026E0C7 /* FlagPhoneNumber.h */,
-				0D8C7135229296D40026E0C7 /* Info.plist */,
-				0D79D5CA2397CAAA00DD3E14 /* FPNCountry.swift */,
-				0D79D5CB2397CAAA00DD3E14 /* FPNCountryListViewController.swift */,
-				0D79D5C52397CAA900DD3E14 /* FPNCountryRepository.swift */,
-				0D192FFF2293078C002583B1 /* FPNTextField.swift */,
-				0D192FF62293078B002583B1 /* FPNCountryPicker */,
-				0D79D5D72397CB3600DD3E14 /* Helpers */,
-				0D192FD42293078B002583B1 /* libPhoneNumber */,
-				0D192FF22293078B002583B1 /* Resources */,
+				3454BA5324E5306700B67FA0 /* FPNCountry.swift */,
+				3454BA2124E5306700B67FA0 /* FPNCountryListViewController.swift */,
+				3454BA2224E5306700B67FA0 /* FPNTextField.swift */,
+				3454BA2324E5306700B67FA0 /* FlagPhoneNumber.h */,
+				3454BA5224E5306700B67FA0 /* Info.plist */,
+				3454BA2424E5306700B67FA0 /* FPNCountryRepository.swift */,
+				3454BA4A24E5306700B67FA0 /* FlagPhoneNumber-Bridging-Header.h */,
+				3454BA2524E5306700B67FA0 /* Resources */,
+				3454BA2924E5306700B67FA0 /* libPhoneNumber */,
+				3454BA4624E5306700B67FA0 /* FPNCountryPicker */,
+				3454BA4B24E5306700B67FA0 /* Helpers */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		3454BA2524E5306700B67FA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3454BA2624E5306700B67FA0 /* FPNCountryView.xib */,
+				3454BA2724E5306700B67FA0 /* countryCodes.json */,
+				3454BA2824E5306700B67FA0 /* FlagKit.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3454BA2924E5306700B67FA0 /* libPhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				3454BA2A24E5306700B67FA0 /* NBPhoneNumber.h */,
+				3454BA2B24E5306700B67FA0 /* NBAsYouTypeFormatter.m */,
+				3454BA2C24E5306700B67FA0 /* NBPhoneMetaData.m */,
+				3454BA2D24E5306700B67FA0 /* NBPhoneNumberUtil.m */,
+				3454BA2E24E5306700B67FA0 /* NSArray+NBAdditions.m */,
+				3454BA2F24E5306700B67FA0 /* NBMetadataHelper.h */,
+				3454BA3024E5306700B67FA0 /* NBPhoneNumberDefines.h */,
+				3454BA3124E5306700B67FA0 /* Internal */,
+				3454BA3624E5306700B67FA0 /* GeneratePhoneNumberHeader.sh */,
+				3454BA3724E5306700B67FA0 /* NBNumberFormat.m */,
+				3454BA3824E5306700B67FA0 /* NBPhoneNumberDesc.h */,
+				3454BA3924E5306700B67FA0 /* NBPhoneNumberUtil+ShortNumber.m */,
+				3454BA3A24E5306700B67FA0 /* NBAsYouTypeFormatter.h */,
+				3454BA3B24E5306700B67FA0 /* NBPhoneNumber.m */,
+				3454BA3C24E5306700B67FA0 /* NBPhoneMetaData.h */,
+				3454BA3D24E5306700B67FA0 /* NBMetadataHelper.m */,
+				3454BA3E24E5306700B67FA0 /* NSArray+NBAdditions.h */,
+				3454BA3F24E5306700B67FA0 /* NBPhoneNumberUtil.h */,
+				3454BA4024E5306700B67FA0 /* NBPhoneNumberMetadata.plist */,
+				3454BA4124E5306700B67FA0 /* NBGeneratedPhoneNumberMetaData.h */,
+				3454BA4224E5306700B67FA0 /* NBPhoneNumberUtil+ShortNumber.h */,
+				3454BA4324E5306700B67FA0 /* NBPhoneNumberDesc.m */,
+				3454BA4424E5306700B67FA0 /* NBNumberFormat.h */,
+				3454BA4524E5306700B67FA0 /* NBPhoneNumberDefines.m */,
+			);
+			path = libPhoneNumber;
+			sourceTree = "<group>";
+		};
+		3454BA3124E5306700B67FA0 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				3454BA3224E5306700B67FA0 /* NBRegExMatcher.h */,
+				3454BA3324E5306700B67FA0 /* NBRegularExpressionCache.h */,
+				3454BA3424E5306700B67FA0 /* NBRegExMatcher.m */,
+				3454BA3524E5306700B67FA0 /* NBRegularExpressionCache.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		3454BA4624E5306700B67FA0 /* FPNCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3454BA4724E5306700B67FA0 /* FPNNibLoadingView.swift */,
+				3454BA4824E5306700B67FA0 /* FPNCountryPicker.swift */,
+				3454BA4924E5306700B67FA0 /* FPNCountryView.swift */,
+			);
+			path = FPNCountryPicker;
+			sourceTree = "<group>";
+		};
+		3454BA4B24E5306700B67FA0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3454BA4C24E5306700B67FA0 /* FPNFormat.swift */,
+				3454BA4D24E5306700B67FA0 /* Bundle+Extension.swift */,
+				3454BA4E24E5306700B67FA0 /* FPNCountryCode.swift */,
+				3454BA4F24E5306700B67FA0 /* FPNTextFieldDelegate.swift */,
+				3454BA5024E5306700B67FA0 /* FPNOBJCCountryKey.swift */,
+				3454BA5124E5306700B67FA0 /* FPNUtils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* FlagPhoneNumberTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* FlagPhoneNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* FlagPhoneNumberTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = FlagPhoneNumberTests;
+			path = Tests/FlagPhoneNumberTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"FlagPhoneNumber::FlagPhoneNumberTests::Product" /* FlagPhoneNumberTests.xctest */,
+				"FlagPhoneNumber::FlagPhoneNumber::Product" /* FlagPhoneNumber.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				3454BA2024E5306700B67FA0 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_17 /* ExampleCocoapods */,
+				OBJ_18 /* Screenshot */,
+				OBJ_19 /* ExampleOBJC */,
+				OBJ_20 /* ExampleCarthage */,
+				OBJ_21 /* LICENSE */,
+				OBJ_22 /* README.md */,
+				OBJ_23 /* FlagPhoneNumber.podspec */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		0DF48B3422917047006AB39C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D79D5D02397CAAA00DD3E14 /* FlagPhoneNumber-Bridging-Header.h in Headers */,
-				0DA9CA0B2293E39500723B96 /* FlagPhoneNumber.h in Headers */,
-				0D19301B2293078C002583B1 /* NBNumberFormat.h in Headers */,
-				0D1930152293078C002583B1 /* NSArray+NBAdditions.h in Headers */,
-				0D1930132293078C002583B1 /* NBPhoneMetaData.h in Headers */,
-				0D1930162293078C002583B1 /* NBPhoneNumberUtil.h in Headers */,
-				0D1930092293078C002583B1 /* NBRegExMatcher.h in Headers */,
-				0D1930072293078C002583B1 /* NBMetadataHelper.h in Headers */,
-				0D1930192293078C002583B1 /* NBPhoneNumberUtil+ShortNumber.h in Headers */,
-				0D1930112293078C002583B1 /* NBAsYouTypeFormatter.h in Headers */,
-				0D1930182293078C002583B1 /* NBGeneratedPhoneNumberMetaData.h in Headers */,
-				0D19300F2293078C002583B1 /* NBPhoneNumberDesc.h in Headers */,
-				0D1930082293078C002583B1 /* NBPhoneNumberDefines.h in Headers */,
-				0D1930022293078C002583B1 /* NBPhoneNumber.h in Headers */,
-				0D19300A2293078C002583B1 /* NBRegularExpressionCache.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		0DF48B3822917047006AB39C /* FlagPhoneNumber */ = {
+		"FlagPhoneNumber::FlagPhoneNumber" /* FlagPhoneNumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DF48B3E22917047006AB39C /* Build configuration list for PBXNativeTarget "FlagPhoneNumber" */;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "FlagPhoneNumber" */;
 			buildPhases = (
-				0DF48B3422917047006AB39C /* Headers */,
-				0DF48B3522917047006AB39C /* Sources */,
-				0DF48B3622917047006AB39C /* Frameworks */,
-				0DF48B3722917047006AB39C /* Resources */,
+				OBJ_28 /* Sources */,
+				OBJ_30 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,292 +278,346 @@
 			);
 			name = FlagPhoneNumber;
 			productName = FlagPhoneNumber;
-			productReference = 0DF48B3922917047006AB39C /* FlagPhoneNumber.framework */;
+			productReference = "FlagPhoneNumber::FlagPhoneNumber::Product" /* FlagPhoneNumber.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"FlagPhoneNumber::FlagPhoneNumberTests" /* FlagPhoneNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_43 /* Build configuration list for PBXNativeTarget "FlagPhoneNumberTests" */;
+			buildPhases = (
+				OBJ_46 /* Sources */,
+				OBJ_49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_51 /* PBXTargetDependency */,
+			);
+			name = FlagPhoneNumberTests;
+			productName = FlagPhoneNumberTests;
+			productReference = "FlagPhoneNumber::FlagPhoneNumberTests::Product" /* FlagPhoneNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"FlagPhoneNumber::SwiftPMPackageDescription" /* FlagPhoneNumberPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXNativeTarget "FlagPhoneNumberPackageDescription" */;
+			buildPhases = (
+				OBJ_35 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagPhoneNumberPackageDescription;
+			productName = FlagPhoneNumberPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0D0EA1D222913E90002D7D42 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = chronotruck;
-				TargetAttributes = {
-					0DF48B3822917047006AB39C = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 0D0EA1D522913E90002D7D42 /* Build configuration list for PBXProject "FlagPhoneNumber" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "FlagPhoneNumber" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 0D0EA1D122913E90002D7D42;
-			productRefGroup = 0D0EA1DB22913E90002D7D42 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DF48B3822917047006AB39C /* FlagPhoneNumber */,
+				"FlagPhoneNumber::FlagPhoneNumber" /* FlagPhoneNumber */,
+				"FlagPhoneNumber::SwiftPMPackageDescription" /* FlagPhoneNumberPackageDescription */,
+				"FlagPhoneNumber::FlagPhoneNumberPackageTests::ProductTarget" /* FlagPhoneNumberPackageTests */,
+				"FlagPhoneNumber::FlagPhoneNumberTests" /* FlagPhoneNumberTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0DF48B3722917047006AB39C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
-				0D19301E2293078C002583B1 /* FPNCountryView.xib in Resources */,
-				0D1930172293078C002583B1 /* NBPhoneNumberMetadata.plist in Resources */,
-				0D19301F2293078C002583B1 /* countryCodes.json in Resources */,
-				0D1930202293078C002583B1 /* FlagKit.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0DF48B3522917047006AB39C /* Sources */ = {
+		OBJ_35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				0D1930102293078C002583B1 /* NBPhoneNumberUtil+ShortNumber.m in Sources */,
-				0D79D5DF2397CB3600DD3E14 /* Bundle+Extension.swift in Sources */,
-				0D79D5E32397CB3600DD3E14 /* FPNUtils.swift in Sources */,
-				0D1930242293078C002583B1 /* FPNCountryView.swift in Sources */,
-				0D1930222293078C002583B1 /* FPNNibLoadingView.swift in Sources */,
-				0D1930232293078C002583B1 /* FPNCountryPicker.swift in Sources */,
-				0D1930062293078C002583B1 /* NSArray+NBAdditions.m in Sources */,
-				0D1930042293078C002583B1 /* NBPhoneMetaData.m in Sources */,
-				0D79D5D32397CAAA00DD3E14 /* FPNCountryListViewController.swift in Sources */,
-				0D19300C2293078C002583B1 /* NBRegularExpressionCache.m in Sources */,
-				0D1930142293078C002583B1 /* NBMetadataHelper.m in Sources */,
-				0D79D5E12397CB3600DD3E14 /* FPNTextFieldDelegate.swift in Sources */,
-				0D79D5D22397CAAA00DD3E14 /* FPNCountry.swift in Sources */,
-				0D1930282293078C002583B1 /* FPNTextField.swift in Sources */,
-				0D79D5E02397CB3600DD3E14 /* FPNCountryCode.swift in Sources */,
-				0D19301A2293078C002583B1 /* NBPhoneNumberDesc.m in Sources */,
-				0D1930052293078C002583B1 /* NBPhoneNumberUtil.m in Sources */,
-				0D1930032293078C002583B1 /* NBAsYouTypeFormatter.m in Sources */,
-				0D79D5E22397CB3600DD3E14 /* FPNOBJCCountryKey.swift in Sources */,
-				0D19300E2293078C002583B1 /* NBNumberFormat.m in Sources */,
-				0D1930122293078C002583B1 /* NBPhoneNumber.m in Sources */,
-				0D19300B2293078C002583B1 /* NBRegExMatcher.m in Sources */,
-				0D19301C2293078C002583B1 /* NBPhoneNumberDefines.m in Sources */,
-				0D79D5CD2397CAAA00DD3E14 /* FPNCountryRepository.swift in Sources */,
-				0D79D5DE2397CB3600DD3E14 /* FPNFormat.swift in Sources */,
+				OBJ_36 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_47 /* FlagPhoneNumberTests.swift in Sources */,
+				OBJ_48 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		OBJ_41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "FlagPhoneNumber::FlagPhoneNumberTests" /* FlagPhoneNumberTests */;
+			targetProxy = 3454B9D224E52F3C00B67FA0 /* PBXContainerItemProxy */;
+		};
+		OBJ_51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "FlagPhoneNumber::FlagPhoneNumber" /* FlagPhoneNumber */;
+			targetProxy = 3454B9D124E52F3B00B67FA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0D0EA20022913E92002D7D42 /* Debug */ = {
+		OBJ_26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FlagPhoneNumber.xcodeproj/FlagPhoneNumber_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FlagPhoneNumber;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = FlagPhoneNumber;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		0D0EA20122913E92002D7D42 /* Release */ = {
+		OBJ_27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FlagPhoneNumber.xcodeproj/FlagPhoneNumber_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FlagPhoneNumber;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = FlagPhoneNumber;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		0DF48B3F22917047006AB39C /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chronotruck.FlagPhoneNumber;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		0DF48B4022917047006AB39C /* Release */ = {
+		OBJ_33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Users/mouayyad/Desktop/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Users/mouayyad/Desktop/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chronotruck.FlagPhoneNumber;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FlagPhoneNumber.xcodeproj/FlagPhoneNumberTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				TARGET_NAME = FlagPhoneNumberTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FlagPhoneNumber.xcodeproj/FlagPhoneNumberTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = FlagPhoneNumberTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D0EA1D522913E90002D7D42 /* Build configuration list for PBXProject "FlagPhoneNumber" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "FlagPhoneNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D0EA20022913E92002D7D42 /* Debug */,
-				0D0EA20122913E92002D7D42 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DF48B3E22917047006AB39C /* Build configuration list for PBXNativeTarget "FlagPhoneNumber" */ = {
+		OBJ_25 /* Build configuration list for PBXNativeTarget "FlagPhoneNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DF48B3F22917047006AB39C /* Debug */,
-				0DF48B4022917047006AB39C /* Release */,
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_32 /* Build configuration list for PBXNativeTarget "FlagPhoneNumberPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_33 /* Debug */,
+				OBJ_34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_38 /* Build configuration list for PBXAggregateTarget "FlagPhoneNumberPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_39 /* Debug */,
+				OBJ_40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_43 /* Build configuration list for PBXNativeTarget "FlagPhoneNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_44 /* Debug */,
+				OBJ_45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0D0EA1D222913E90002D7D42 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
