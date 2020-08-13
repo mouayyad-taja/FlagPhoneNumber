@@ -22,14 +22,15 @@ let package = Package(
             name: "FlagPhoneNumberObjc",
             dependencies: [],
             path: "FlagPhoneNumberObjc/Sources",
+            exclude: ["SwiftSources"],
             cSettings: [
-               .headerSearchPath("Internal"), // 5
+               .headerSearchPath("Internal"),
             ]
         ),
         .target(
             name: "FlagPhoneNumber",
             dependencies: ["FlagPhoneNumberObjc"],
-            path: "Sources"),
+            path: "SwiftSources"),
         .testTarget(
             name: "FlagPhoneNumberTests",
             dependencies: ["FlagPhoneNumber"]),

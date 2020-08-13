@@ -111,10 +111,6 @@
 		"FlagPhoneNumber::FlagPhoneNumberTests::Product" /* FlagPhoneNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FlagPhoneNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* FlagPhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagPhoneNumberTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_17 /* ExampleCocoapods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExampleCocoapods; sourceTree = SOURCE_ROOT; };
-		OBJ_18 /* Screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshot; sourceTree = SOURCE_ROOT; };
-		OBJ_19 /* ExampleOBJC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExampleOBJC; sourceTree = SOURCE_ROOT; };
-		OBJ_20 /* ExampleCarthage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExampleCarthage; sourceTree = SOURCE_ROOT; };
 		OBJ_21 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_23 /* FlagPhoneNumber.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FlagPhoneNumber.podspec; sourceTree = "<group>"; };
@@ -155,13 +151,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3454BA2024E5306700B67FA0 /* Sources */ = {
+		3454BA2024E5306700B67FA0 /* SwiftSources */ = {
 			isa = PBXGroup;
 			children = (
 				3454BA5324E5306700B67FA0 /* FPNCountry.swift */,
 				3454BA2124E5306700B67FA0 /* FPNCountryListViewController.swift */,
 				3454BA2224E5306700B67FA0 /* FPNTextField.swift */,
-				3454BA2324E5306700B67FA0 /* FlagPhoneNumber.h */,
 				3454BA5224E5306700B67FA0 /* Info.plist */,
 				3454BA2424E5306700B67FA0 /* FPNCountryRepository.swift */,
 				3454BA4A24E5306700B67FA0 /* FlagPhoneNumber-Bridging-Header.h */,
@@ -169,7 +164,7 @@
 				3454BA4624E5306700B67FA0 /* FPNCountryPicker */,
 				3454BA4B24E5306700B67FA0 /* Helpers */,
 			);
-			path = Sources;
+			path = SwiftSources;
 			sourceTree = "<group>";
 		};
 		3454BA2524E5306700B67FA0 /* Resources */ = {
@@ -269,6 +264,7 @@
 		3454BA7024E543F000B67FA0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3454BA2324E5306700B67FA0 /* FlagPhoneNumber.h */,
 				3454BA2924E5306700B67FA0 /* libPhoneNumber */,
 			);
 			path = Sources;
@@ -307,15 +303,11 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
-				3454BA2024E5306700B67FA0 /* Sources */,
+				3454BA2024E5306700B67FA0 /* SwiftSources */,
 				OBJ_10 /* Tests */,
 				3454BA5A24E543CA00B67FA0 /* FlagPhoneNumberObjc */,
 				3454BA6524E543CA00B67FA0 /* FlagPhoneNumberObjcTests */,
 				OBJ_14 /* Products */,
-				OBJ_17 /* ExampleCocoapods */,
-				OBJ_18 /* Screenshot */,
-				OBJ_19 /* ExampleOBJC */,
-				OBJ_20 /* ExampleCarthage */,
 				OBJ_21 /* LICENSE */,
 				OBJ_22 /* README.md */,
 				OBJ_23 /* FlagPhoneNumber.podspec */,
