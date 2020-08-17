@@ -188,6 +188,10 @@
 				3454BA2E24E5306700B67FA0 /* NSArray+NBAdditions.m */,
 				3454BA2F24E5306700B67FA0 /* NBMetadataHelper.h */,
 				3454BA3024E5306700B67FA0 /* NBPhoneNumberDefines.h */,
+				3454BA3224E5306700B67FA0 /* NBRegExMatcher.h */,
+				3454BA3324E5306700B67FA0 /* NBRegularExpressionCache.h */,
+				3454BA3424E5306700B67FA0 /* NBRegExMatcher.m */,
+				3454BA3524E5306700B67FA0 /* NBRegularExpressionCache.m */,
 				3454BA3124E5306700B67FA0 /* Internal */,
 				3454BA3624E5306700B67FA0 /* GeneratePhoneNumberHeader.sh */,
 				3454BA3724E5306700B67FA0 /* NBNumberFormat.m */,
@@ -212,10 +216,6 @@
 		3454BA3124E5306700B67FA0 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				3454BA3224E5306700B67FA0 /* NBRegExMatcher.h */,
-				3454BA3324E5306700B67FA0 /* NBRegularExpressionCache.h */,
-				3454BA3424E5306700B67FA0 /* NBRegExMatcher.m */,
-				3454BA3524E5306700B67FA0 /* NBRegularExpressionCache.m */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
