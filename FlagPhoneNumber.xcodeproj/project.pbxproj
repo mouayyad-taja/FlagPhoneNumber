@@ -160,6 +160,7 @@
 				3454BA5224E5306700B67FA0 /* Info.plist */,
 				3454BA2424E5306700B67FA0 /* FPNCountryRepository.swift */,
 				3454BA4A24E5306700B67FA0 /* FlagPhoneNumber-Bridging-Header.h */,
+				3454BA2324E5306700B67FA0 /* FlagPhoneNumber.h */,
 				3454BA2524E5306700B67FA0 /* Resources */,
 				3454BA4624E5306700B67FA0 /* FPNCountryPicker */,
 				3454BA4B24E5306700B67FA0 /* Helpers */,
@@ -264,7 +265,6 @@
 		3454BA7024E543F000B67FA0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3454BA2324E5306700B67FA0 /* FlagPhoneNumber.h */,
 				3454BA2924E5306700B67FA0 /* libPhoneNumber */,
 			);
 			path = Sources;
@@ -299,7 +299,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -312,7 +312,6 @@
 				OBJ_22 /* README.md */,
 				OBJ_23 /* FlagPhoneNumber.podspec */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +437,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
